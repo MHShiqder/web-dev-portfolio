@@ -154,3 +154,40 @@ nav ul{
     line-height: 10px;
 }
 
+
+/* expertise styles */
+
+.expertise{
+    text-align: center;
+}
+.ex-des{
+    max-width: 900px;
+    margin: 10px auto 40px;
+}
+
+
+/* cards styles */
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    margin: ;
+}
+.card-box{
+    max-width: 200px;
+    padding: 30px;
+    max-height: 310px;
+    box-shadow: 0 0 30px #eaeaea;
+    text-align: left;
+}
+.card-description{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #757575;
+    margin-top: 20px;
+}
+.card-box img{
+    margin-bottom: 10px;
+}
+
