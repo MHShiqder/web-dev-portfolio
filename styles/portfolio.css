@@ -1,0 +1,156 @@
+/* font styles */
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif; 
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100; 
+}
+
+
+/* shared styles */
+
+.primary-text{
+    color: #FD6E0A;
+}
+
+.dark-2{
+    color:#474747
+}
+.dark-1{
+    color: #181818;
+}
+
+.btn-primary{
+    font-size: 20px;
+    padding: 18px 35px;
+    color: white;
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    border: none;
+}
+
+
+.header{
+    background-image: url(../images/developer.png),url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, right bottom;
+    background-color:#FFF8F3;
+}
+
+.section-title{
+    font-weight: bold;
+    font-size: 35px;
+    color: #181818;
+}
+.title-description{
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    color: #757575;
+}
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+/* nav styles */
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 200px;
+
+}
+
+.nav-title{
+    font-size: 45px;
+    font-weight: 800;
+}
+
+
+
+nav ul li{
+    list-style: none;
+    margin-right: 20px;
+
+}
+
+nav li a{
+    text-decoration: none;
+
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+
+/* banner styles */
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.banner-content{
+    width: 585px;
+    height: 356px;
+    margin: 0 35px 0 200px;
+    flex-wrap: wrap;
+}
+
+.banner-greeting{
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: 800;
+    margin-top: 10px;
+    
+}
+
+.banner-profile-pic{
+    width: 584px;
+    height: 676px;
+    margin:0 30px;
+}
+
+
+/* about me styles*/
+
+.about-me{
+    text-align: center;
+    padding: 130px 150px;
+    background-color: #FFF8F3;
+    margin: 130px 0;
+}
+
+/* info styles */
+.info-title{
+    font-size: 20px;
+    font-weight: 400;
+    color: #757575;
+
+}
+
+.info-description{
+    font-size: 20px;
+    font-weight: bold;
+    color: #474747;
+}
+.info-about-me{
+    display: flex;
+    justify-content: space-around;
+    line-height: 10px;
+}
+
